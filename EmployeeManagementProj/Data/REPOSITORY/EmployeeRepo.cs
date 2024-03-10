@@ -39,7 +39,7 @@ namespace Data.REPOSITORY
                 throw ex;
             }
         }
-        public Employee GetEmployeeById(int id)
+        public Employee GetEmployeeById(string id)
         {
             Employee employee = _dbContext.Employee.Find(id);
             return employee;

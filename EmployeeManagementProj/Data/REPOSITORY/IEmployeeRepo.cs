@@ -10,7 +10,7 @@ namespace Data.REPOSITORY
     public interface IEmployeeRepo
     {
         List<Employee> GetAllEmployees();
-        Employee GetEmployeeById(int id);
+        Employee GetEmployeeById(string id);
         bool AddEmployee(Employee employee);
         bool UpdateEmployee(Employee employee);
         bool DeleteEmployee(int id);

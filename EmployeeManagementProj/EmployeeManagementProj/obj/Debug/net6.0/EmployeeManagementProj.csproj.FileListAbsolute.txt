@@ -319,3 +319,4 @@ D:\Ems_Dipannita\2\Final\EmployeeManagementProj\EmployeeManagementProj\obj\Debug
 D:\Ems_Dipannita\2\Final\EmployeeManagementProj\EmployeeManagementProj\obj\Debug\net6.0\EmployeeManagementProj.pdb
 D:\Ems_Dipannita\2\Final\EmployeeManagementProj\EmployeeManagementProj\obj\Debug\net6.0\EmployeeManagementProj.genruntimeconfig.cache
 D:\Ems_Dipannita\2\Final\EmployeeManagementProj\EmployeeManagementProj\obj\Debug\net6.0\ref\EmployeeManagementProj.dll
+D:\Ems_Dipannita\2\Final\EmployeeManagementProj\EmployeeManagementProj\obj\Debug\net6.0\EmployeeManagementProj.sourcelink.json

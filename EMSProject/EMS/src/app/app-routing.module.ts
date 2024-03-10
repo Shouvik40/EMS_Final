@@ -19,6 +19,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { BaseComponent } from './pages/base/base.component';
 import { UserComponent } from './pages/user/user.component';
 import { UserHomeComponent } from './pages/user-home/user-home.component';
+import { UserEmployeeComponent } from './pages/user-employee/user-employee.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'login', pathMatch: 'full' },
@@ -56,7 +57,7 @@ const routes: Routes = [
     component: UserComponent,
     children: [
       { path: 'user-home', component: UserHomeComponent },
-      { path: 'emp', component: EmployeeComponent },
+      { path: 'emp', component: UserEmployeeComponent },
       { path: 'edit/:id', component: EditEmployeeComponent },
       { path: 'contact', component: ContactUsComponent },
       { path: '', redirectTo: 'user-home', pathMatch: 'full' },

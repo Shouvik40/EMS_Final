@@ -29,6 +29,7 @@ import { BaseComponent } from './pages/base/base.component';
 import { UserComponent } from './pages/user/user.component';
 import { UserNavbarComponent } from './layouts/user-navbar/user-navbar.component';
 import { UserHomeComponent } from './pages/user-home/user-home.component';
+import { UserEmployeeComponent } from './pages/user-employee/user-employee.component';
 
 @NgModule({
   declarations: [
@@ -53,6 +54,7 @@ import { UserHomeComponent } from './pages/user-home/user-home.component';
     UserComponent,
     UserNavbarComponent,
     UserHomeComponent,
+    UserEmployeeComponent,
   ],
   imports: [
     BrowserModule,

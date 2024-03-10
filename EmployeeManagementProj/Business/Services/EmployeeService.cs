@@ -36,7 +36,7 @@ namespace Business.Services
             return _employeeRepo.GetAllEmployees();
         }
         
-        public Employee GetEmployeeById(int id)
+        public Employee GetEmployeeById(string id)
         {
             Employee employee = _employeeRepo.GetEmployeeById(id);
             return employee;

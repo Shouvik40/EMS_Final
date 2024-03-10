@@ -234,7 +234,7 @@ namespace EmployeeManagementProj.Controllers
 
 
         [HttpGet("GetEmployeeById")]
-        public IActionResult GetEmployee(int id)
+        public IActionResult GetEmployee(string id)
         {
             try
             {

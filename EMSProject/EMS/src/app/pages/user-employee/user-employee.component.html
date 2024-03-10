@@ -1,0 +1,55 @@
+<div class="user-employee">
+  <h2>Employee Details</h2>
+  <div>
+    <div class="emp-input">
+      <label for="empID">Enter Employee ID: </label>
+      <input type="text" id="empID" [(ngModel)]="empID" />
+      <button (click)="getEmployeeDetails()">Search</button>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="employee" class="container">
+  <div class="table-responsive">
+    <div class="table-container">
+      <table class="responsive-table" #excelTable id="excelTableId">
+        <thead>
+          <tr class="table-header">
+            <th class="col col-1">Emp Id</th>
+            <th class="col col-2">First Name</th>
+            <th class="col col-3">Last Name</th>
+            <th class="col col-4">Date of Birth</th>
+            <th class="col col-5">Date of Joining</th>
+            <th class="col col-5">Department Id</th>
+            <th class="col col-5">Grade</th>
+            <th class="col col-5">Designation</th>
+            <th class="col col-5">Basic Salary</th>
+            <th class="col col-5">Gender</th>
+            <th class="col col-5">Marital Status</th>
+            <th class="col col-5">Home Address</th>
+            <th class="col col-5">Contact Num</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="table-row">
+            <td class="col">{{ employee.empID }}</td>
+            <td class="col">{{ employee.empFirstName }}</td>
+            <td class="col">{{ employee.empLastName }}</td>
+            <td class="col">{{ employee.empDateOfBirth | date }}</td>
+            <td class="col">{{ employee.dateOfJoining | date }}</td>
+            <td class="col">{{ employee.empDeptID }}</td>
+            <td class="col">{{ employee.empGrade }}</td>
+            <td class="col">{{ employee.empDesignation }}</td>
+            <td class="col">{{ employee.empBasic }}</td>
+            <td class="col">{{ employee.empGender }}</td>
+            <td class="col">{{ employee.empMaritalStatus }}</td>
+            <td class="col">{{ employee.empHomeAddress }}</td>
+            <td class="col">{{ employee.empContactNum }}</td>
+          </tr>
+
+          <!-- Add more rows as needed -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

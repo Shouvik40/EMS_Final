@@ -67,3 +67,4 @@ D:\Ems_Dipannita\2\Final\EmployeeManagementProj\Data\obj\Debug\net6.0\refint\Dat
 D:\Ems_Dipannita\2\Final\EmployeeManagementProj\Data\obj\Debug\net6.0\Data.pdb
 D:\Ems_Dipannita\2\Final\EmployeeManagementProj\Data\obj\Debug\net6.0\Data.genruntimeconfig.cache
 D:\Ems_Dipannita\2\Final\EmployeeManagementProj\Data\obj\Debug\net6.0\ref\Data.dll
+D:\Ems_Dipannita\2\Final\EmployeeManagementProj\Data\obj\Debug\net6.0\Data.sourcelink.json
